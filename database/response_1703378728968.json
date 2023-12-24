@@ -1,0 +1,2005 @@
+{
+  "pageNumber": 1,
+  "pageSize": 10,
+  "total": 2436,
+  "classes": [
+    {
+      "quarter": "20231",
+      "courseId": "ANTH      2  ",
+      "title": "INTRO CULT ANTHRO",
+      "contactHours": 30,
+      "description": "The nature of culture: survey of the range of cultural phenomena, including material culture, social organization, religion, and other topics.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [
+        {
+          "geCode": "NWC",
+          "geCollege": "L&S "
+        },
+        {
+          "geCode": "D  ",
+          "geCollege": "ENGR"
+        },
+        {
+          "geCode": "D  ",
+          "geCollege": "L&S "
+        },
+        {
+          "geCode": "NWC",
+          "geCollege": "ENGR"
+        }
+      ],
+      "classSections": [
+        {
+          "enrollCode": "00018",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 427,
+          "maxEnroll": 440,
+          "secondaryStatus": "R",
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "LLCH",
+              "building": "MUSIC",
+              "roomCapacity": 468,
+              "days": "M W    ",
+              "beginTime": "11:00",
+              "endTime": "12:15"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "HOELLE J A",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00026",
+          "section": "0101",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2124",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": "M      ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "REQUENA I",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00034",
+          "section": "0102",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4201",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "M      ",
+              "beginTime": "09:00",
+              "endTime": "09:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GUSSONE L S",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00042",
+          "section": "0103",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2120",
+              "building": "GIRV",
+              "roomCapacity": 29,
+              "days": "M      ",
+              "beginTime": "14:00",
+              "endTime": "14:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "FERREE T J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00059",
+          "section": "0104",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "M      ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BUORO Y",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00067",
+          "section": "0105",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2108",
+              "building": "GIRV",
+              "roomCapacity": 24,
+              "days": " T     ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "ARMINE-KLEIN",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00075",
+          "section": "0106",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 17,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2124",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": "    F  ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BUORO Y",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00083",
+          "section": "0107",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "M      ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GRIFFITHS E H",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00091",
+          "section": "0108",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 17,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "3201",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "    F  ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GUSSONE L S",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00109",
+          "section": "0109",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2108",
+              "building": "GIRV",
+              "roomCapacity": 24,
+              "days": "  W    ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "USMAN R",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00117",
+          "section": "0110",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 21,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2251",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "  W    ",
+              "beginTime": "09:00",
+              "endTime": "09:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "USMAN R",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00125",
+          "section": "0111",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2108",
+              "building": "GIRV",
+              "roomCapacity": 24,
+              "days": "    F  ",
+              "beginTime": "16:00",
+              "endTime": "16:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GUSSONE L S",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00133",
+          "section": "0112",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2201",
+              "building": "HSSB",
+              "roomCapacity": 20,
+              "days": "    F  ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "MENDOZA CHAVE",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00141",
+          "section": "0113",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2108",
+              "building": "GIRV",
+              "roomCapacity": 24,
+              "days": "    F  ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BUORO Y",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00158",
+          "section": "0114",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2124",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": "    F  ",
+              "beginTime": "16:00",
+              "endTime": "16:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "REQUENA I",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00166",
+          "section": "0115",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 21,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2124",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": "    F  ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "ARMINE-KLEIN",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00174",
+          "section": "0116",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 17,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2201",
+              "building": "HSSB",
+              "roomCapacity": 20,
+              "days": "    F  ",
+              "beginTime": "16:00",
+              "endTime": "16:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "ARMINE-KLEIN",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00182",
+          "section": "0117",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2201",
+              "building": "HSSB",
+              "roomCapacity": 20,
+              "days": "    F  ",
+              "beginTime": "09:00",
+              "endTime": "09:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "REQUENA I",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00190",
+          "section": "0118",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1934",
+              "building": "BUCHN",
+              "roomCapacity": 25,
+              "days": "    F  ",
+              "beginTime": "10:00",
+              "endTime": "10:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "MENDOZA CHAVE",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00208",
+          "section": "0119",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1210",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "    F  ",
+              "beginTime": "11:00",
+              "endTime": "11:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GRIFFITHS E H",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "58701",
+          "section": "0120",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 17,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "M      ",
+              "beginTime": "18:00",
+              "endTime": "18:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GRIFFITHS E H",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "58719",
+          "section": "0121",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "3202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "  W    ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "FERREE T J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "58727",
+          "section": "0122",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 21,
+          "maxEnroll": 20,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "3202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": " T     ",
+              "beginTime": "10:00",
+              "endTime": "10:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "MENDOZA CHAVE",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH      5  ",
+      "title": "INTRO  BIO ANTH",
+      "contactHours": 30,
+      "description": "An introductory course in human evolutionary biology.  Natural selection an d its genetic basis are used to highlight a variety of human traits.  The f ossil record is addressed, but the course takes more of an \"adaptationist\" than a paleontological perspective.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 5,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [
+        {
+          "geCode": "C  ",
+          "geCollege": "L&S "
+        }
+      ],
+      "classSections": [
+        {
+          "enrollCode": "00216",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 309,
+          "maxEnroll": 350,
+          "secondaryStatus": "R",
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "THEA1",
+              "building": "IV",
+              "roomCapacity": 529,
+              "days": " T R   ",
+              "beginTime": "11:00",
+              "endTime": "12:15"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "GAULIN S J",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00224",
+          "section": "0101",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1211",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "    F  ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "DEGNAN B K",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00232",
+          "section": "0102",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1210",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "    F  ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "HOFFMAN A J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00240",
+          "section": "0103",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1116",
+              "building": "GIRV",
+              "roomCapacity": 42,
+              "days": "M      ",
+              "beginTime": "10:00",
+              "endTime": "10:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BAILEY-STEINI",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00257",
+          "section": "0104",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 19,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1353",
+              "building": "ARTS",
+              "roomCapacity": 54,
+              "days": "  W    ",
+              "beginTime": "09:00",
+              "endTime": "09:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "KILGALLEN J A",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00265",
+          "section": "0105",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1115",
+              "building": "GIRV",
+              "roomCapacity": 48,
+              "days": "  W    ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "MITCHELL S T",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00273",
+          "section": "0106",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 18,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1207",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "    F  ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "CHEN ZHIAN",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00281",
+          "section": "0107",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 24,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1508",
+              "building": "PHELP",
+              "roomCapacity": 48,
+              "days": "M      ",
+              "beginTime": "14:00",
+              "endTime": "14:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BAILEY-STEINI",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00299",
+          "section": "0108",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 18,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "    F  ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "LOBIONDO M V",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00307",
+          "section": "0109",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 20,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "4202",
+              "building": "HSSB",
+              "roomCapacity": 24,
+              "days": "    F  ",
+              "beginTime": "15:00",
+              "endTime": "15:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "LOBIONDO M V",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00315",
+          "section": "0110",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 23,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1233",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "    F  ",
+              "beginTime": "09:00",
+              "endTime": "09:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "DEGNAN B K",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00323",
+          "section": "0111",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2119",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": "  W    ",
+              "beginTime": "18:00",
+              "endTime": "18:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "MITCHELL S T",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00331",
+          "section": "0112",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 16,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2108",
+              "building": "GIRV",
+              "roomCapacity": 24,
+              "days": "M      ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "HOFFMAN A J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "00349",
+          "section": "0113",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 21,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2166A",
+              "building": "KERR",
+              "roomCapacity": 28,
+              "days": "    F  ",
+              "beginTime": "11:00",
+              "endTime": "11:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "AUDRAS C J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "58735",
+          "section": "0114",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 22,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1224",
+              "building": "HSSB",
+              "roomCapacity": 26,
+              "days": "   R   ",
+              "beginTime": "08:00",
+              "endTime": "08:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "KILGALLEN J A",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "58743",
+          "section": "0115",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 23,
+          "maxEnroll": 24,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1353",
+              "building": "ARTS",
+              "roomCapacity": 54,
+              "days": "  W    ",
+              "beginTime": "13:00",
+              "endTime": "13:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "AUDRAS C J",
+              "functionCode": "Teaching but not in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH     99  ",
+      "title": "INDEPENDENT STUDIES",
+      "contactHours": null,
+      "description": "Introduction to research in Anthropology. Independent research under the guidance of a faculty member in the department. Course offers exceptional students the opportunity to undertake independent research or work in a research group.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": null,
+      "unitsVariableHigh": 4,
+      "unitsVariableLow": 1,
+      "delayedSectioning": "I",
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "TUT",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "63800",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": null,
+          "maxEnroll": 35,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": true,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [],
+          "instructors": []
+        },
+        {
+          "enrollCode": "76083",
+          "section": "0200",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 4,
+          "maxEnroll": 35,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": true,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [],
+          "instructors": [
+            {
+              "instructor": "BROWN M",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "77669",
+          "section": "0300",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 2,
+          "maxEnroll": 35,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": true,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [],
+          "instructors": [
+            {
+              "instructor": "SMITH S T",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "84145",
+          "section": "0400",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 2,
+          "maxEnroll": 35,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": true,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [],
+          "instructors": [
+            {
+              "instructor": "FORD A",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    103B ",
+      "title": "ANTHRO OF JAPAN",
+      "contactHours": 30,
+      "description": "This course examines Japan as depicted in contemporary ethnography. We cons ider how Japan has been imagined as a distinct culture by exploring gender, religion, family structures, the education system, the environment, manage ment of difference, globalization and domestication, immigration, and moder nization.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [
+        {
+          "geCode": "D  ",
+          "geCollege": "L&S "
+        },
+        {
+          "geCode": "D  ",
+          "geCollege": "ENGR"
+        },
+        {
+          "geCode": "NWC",
+          "geCollege": "L&S "
+        },
+        {
+          "geCode": "NWC",
+          "geCollege": "ENGR"
+        }
+      ],
+      "classSections": [
+        {
+          "enrollCode": "56606",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 32,
+          "maxEnroll": 35,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": "U",
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1440",
+              "building": "PHELP",
+              "roomCapacity": 35,
+              "days": "M W    ",
+              "beginTime": "15:30",
+              "endTime": "16:45"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "IOANNIDES M J",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    112Z ",
+      "title": "THEORY CONTEM ARCH",
+      "contactHours": 30,
+      "description": "A survey of the history of archaeological theory, and an overview of major theoretical approaches and applications in contemporary  archaeology.  The course demonstrates how theory serves as a guide to research and to the interpretation of archaeological data.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "00372",
+          "section": "0100",
+          "session": null,
+          "classClosed": "Y",
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": null,
+          "maxEnroll": 30,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2123",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": " T R   ",
+              "beginTime": "09:30",
+              "endTime": "10:45"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "WILSON G D",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    113  ",
+      "title": "INDIGENOUS PEOPLE",
+      "contactHours": 30,
+      "description": "The changing relationship between indigenous people and the   state. Compare the differences and similarities between   indigenous peoples' mobilizations in the cases of Canada,   USA, Ecuador, Chile, Guatemala, Bolivia and Mexico.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "58305",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 28,
+          "maxEnroll": 30,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2001A",
+              "building": "HSSB",
+              "roomCapacity": null,
+              "days": "  W    ",
+              "beginTime": "17:00",
+              "endTime": "19:50"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "SALDIVAR TANA",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    116A ",
+      "title": "MYTH, RITUAL, SYMB",
+      "contactHours": 30,
+      "description": "Uses ethnographic case studies, films and performance videos to explore myth, ritual, and symbolism cross-culturally. Compares and contrasts the symbolic dimensions of gender and ethnic identity, world view, social and political organization and change in different societies.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [
+        {
+          "geCode": "WRT",
+          "geCollege": "ENGR"
+        },
+        {
+          "geCode": "WRT",
+          "geCollege": "L&S "
+        }
+      ],
+      "classSections": [
+        {
+          "enrollCode": "59048",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 28,
+          "maxEnroll": 30,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2123",
+              "building": "GIRV",
+              "roomCapacity": 30,
+              "days": " T R   ",
+              "beginTime": "11:00",
+              "endTime": "12:15"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BANACH M",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        },
+        {
+          "enrollCode": "59055",
+          "section": "0101",
+          "session": null,
+          "classClosed": "Y",
+          "courseCancelled": "C         ",
+          "gradingOptionCode": null,
+          "enrolledTotal": null,
+          "maxEnroll": null,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [],
+          "instructors": []
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    117  ",
+      "title": "BORDERLANDS",
+      "contactHours": 30,
+      "description": "The theoretical concept of \"borderlands\" examined through a discussion of the societies, economics and cultures that form on geopolitical borders. The Mexico-U.S. border will be discussed in detail.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": "L",
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "61929",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 39,
+          "maxEnroll": 40,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": "U",
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1119",
+              "building": "GIRV",
+              "roomCapacity": 48,
+              "days": "M W    ",
+              "beginTime": "14:00",
+              "endTime": "15:15"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "LAMON S E",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    123  ",
+      "title": "FEEDING ECOLOGY",
+      "contactHours": 30,
+      "description": "Foraging and feeding patterns in primates with some discussion of human pat terns.   Topics include digestive physiology; measurement of energy flows a nd food availability; foraging theory;   and the evolutionary context of hu man diets.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "SEM",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "00380",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 28,
+          "maxEnroll": 40,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": "U",
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "2617",
+              "building": "ELLSN",
+              "roomCapacity": 90,
+              "days": "M W    ",
+              "beginTime": "15:30",
+              "endTime": "16:45"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "BROWN M",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quarter": "20231",
+      "courseId": "ANTH    133  ",
+      "title": "CULT DEVEL MESOAMER",
+      "contactHours": 30,
+      "description": "The rise and fall of various ancient civilizations such as those of the Maya, Aztecs, Toltecs, Teotihuacanos, and Olmec as well as their cultural antecedents. This course uses self-paced audiovisual modules as well as traditional lecture format.",
+      "college": "L&S",
+      "objLevelCode": "U",
+      "subjectArea": "ANTH    ",
+      "unitsFixed": 4,
+      "unitsVariableHigh": null,
+      "unitsVariableLow": null,
+      "delayedSectioning": null,
+      "inProgressCourse": null,
+      "gradingOption": null,
+      "instructionType": "LEC",
+      "onLineCourse": false,
+      "deptCode": "ANTH ",
+      "generalEducation": [],
+      "classSections": [
+        {
+          "enrollCode": "58321",
+          "section": "0100",
+          "session": null,
+          "classClosed": null,
+          "courseCancelled": null,
+          "gradingOptionCode": null,
+          "enrolledTotal": 93,
+          "maxEnroll": 95,
+          "secondaryStatus": null,
+          "departmentApprovalRequired": false,
+          "instructorApprovalRequired": false,
+          "restrictionLevel": null,
+          "restrictionMajor": null,
+          "restrictionMajorPass": null,
+          "restrictionMinor": null,
+          "restrictionMinorPass": null,
+          "concurrentCourses": [],
+          "timeLocations": [
+            {
+              "room": "1174",
+              "building": "HSSB",
+              "roomCapacity": 95,
+              "days": "M W    ",
+              "beginTime": "12:30",
+              "endTime": "13:45"
+            }
+          ],
+          "instructors": [
+            {
+              "instructor": "VANDERWARKER",
+              "functionCode": "Teaching and in charge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
