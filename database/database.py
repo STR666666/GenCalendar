@@ -1,6 +1,6 @@
 """
-File: gold.py
-Description: Parse json file and store in the database.
+File: database.py
+Description: Parse json file and store in the database. Course filter methods.
 """
 import json
 from datetime import datetime
