@@ -1,47 +1,17 @@
-"""
-File: database.py
-Description: Parse json file and store in the database. Course filter methods.
-"""
 import json
+import os
+import sys
+cur_path = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, cur_path+"/..")
+
 from datetime import datetime
 from peewee import *
-
-db = SqliteDatabase('courses.db')
-
-class Course(Model):
-    quarter = CharField()
-    courseId = CharField()
-    title = CharField()
-    contactHours = FloatField(null=True)
-    description = CharField(null=True)
-    college = CharField(null=True)
-    objLevelCode = CharField(null=True)
-    subjectArea = CharField(null=True)
-    unitsFixed = FloatField(null=True)
-    unitsVariableHigh = FloatField(null=True)
-    unitsVariableLow = FloatField(null=True)
-    delayedSectioning = CharField(null=True)
-    inProgressCourse = CharField(null=True)
-    gradingOption = CharField(null=True)
-    instructionType = CharField(null=True)
-    onLineCourse = BooleanField(null=True)
-    deptCode = CharField(null=True)
-    generalEducation = CharField(null=True)
-    classEnrollCode = CharField(null=True)
-    days = CharField(null=True)
-    beginTime = CharField(null=True)
-    endTime = CharField(null=True)
-    instructor = CharField(null=True)
-
-    class Meta:
-        primary_key = CompositeKey('quarter', 'courseId', 'classEnrollCode')
-        database = db
+from models import Course, initialize_db
 
 def parse_json(input):
-    db.connect()
 
-    if not Course.table_exists():
-        db.create_tables([Course])
+    # if not Course.table_exists():
+    #     db.create_tables([Course])
 
     with open(input, 'r') as file:
         data = json.load(file)
@@ -195,7 +165,8 @@ def filter_by_time(day, begin, end, courses):
     return filtered_courses
 
 if __name__ == "__main__":
-    # parse_json('api_responses.json')
+    initialize_db()
+    parse_json('api_responses.json')
     temp = get_all_courses()
     for i in temp:
         print(f"{i.courseId}, {i.beginTime}, {i.endTime}")
