@@ -46,28 +46,29 @@ def parse_json(input):
     with open(input, 'r') as file:
         data = json.load(file)
 
-        classes = data['classes']
+        classes = data
         for c in classes:
             gen_ed = ''
             for ge in c['generalEducation']:
                 gen_ed += (ge['geCode'] + '/')
                 gen_ed += (ge['geCollege'] + ',')
 
-            classEnrollCode = c['classSections'][0]['enrollCode']
+            classEnrollCode = None
+            instructor = None
+            days = None
+            beginTime = None
+            endTime = None
 
-            if len(c['classSections'][0]['instructors']) == 0:
-                instructor = None
-            else:
-                instructor = c['classSections'][0]['instructors'][0]['instructor']
+            if len(c['classSections']) != 0:
+                classEnrollCode = c['classSections'][0]['enrollCode']
 
-            if len(c['classSections'][0]['timeLocations']) == 0:
-                days = None
-                beginTime = None
-                endTime = None
-            else:
-                days = c['classSections'][0]['timeLocations'][0]['days']
-                beginTime = c['classSections'][0]['timeLocations'][0]['beginTime']
-                endTime = c['classSections'][0]['timeLocations'][0]['endTime']
+                if len(c['classSections'][0]['instructors']) != 0:
+                    instructor = c['classSections'][0]['instructors'][0]['instructor']
+
+                if len(c['classSections'][0]['timeLocations']) != 0:
+                    days = c['classSections'][0]['timeLocations'][0]['days']
+                    beginTime = c['classSections'][0]['timeLocations'][0]['beginTime']
+                    endTime = c['classSections'][0]['timeLocations'][0]['endTime']
             
             course = Course(
                 quarter = c['quarter'],
@@ -194,7 +195,7 @@ def filter_by_time(day, begin, end, courses):
     return filtered_courses
 
 if __name__ == "__main__":
-    # parse_json('response_1703378728968.json')
+    # parse_json('api_responses.json')
     temp = get_all_courses()
     for i in temp:
         print(f"{i.courseId}, {i.beginTime}, {i.endTime}")
