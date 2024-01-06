@@ -1,9 +1,12 @@
 class MemoryBus:
-    def __init__(self, memory=None):
+    def __init__(self, memory=[]):
         self._memory = memory
 
-    def read_all(self):
+    def read(self):
         return self._memory
     
-    def update_memory(self, memory):
+    def write(self, memory):
         self._memory = memory
+
+    def get_size(self):
+        return self._memory
