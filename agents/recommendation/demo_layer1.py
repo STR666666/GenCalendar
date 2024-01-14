@@ -27,6 +27,7 @@ def random_response(message, history):
 def process_student_info(name, age, class_standing,major,transcript):
     if not name:
         return 'Please enter your name!'
+        
     elif not class_standing:
         return 'Plase enter your class standing'
     elif not major:
