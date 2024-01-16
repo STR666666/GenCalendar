@@ -38,6 +38,8 @@ submit_button = st.button("Submit")
 if submit_button:
     student = Student.create(name=student_name, age=student_age, class_standing=student_class_standing, major=student_major)
     st.write("Your information recorded successfully. Student ID: " + str(student.id))
+    response=rec.class_recommendation(student_class_standing, student_major, 'University of California, Santa Barbara')
+    st.text_area('Here are the recommended courses for you:',response['rec_class'])
 
 
 
@@ -46,35 +48,35 @@ if submit_button:
 #Still woking on it!!!
 st.title("ChatBot")
 
-client = OpenAI(temperature=0,openai_api_key=openai_key)
+# client = OpenAI(temperature=0,openai_api_key=openai_key)
 
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+# if "openai_model" not in st.session_state:
+#     st.session_state["openai_model"] = "gpt-3.5-turbo"
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+# if "messages" not in st.session_state:
+#     st.session_state.messages = []
 
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+# for message in st.session_state.messages:
+#     with st.chat_message(message["role"]):
+#         st.markdown(message["content"])
 
-if prompt := st.chat_input("What is up?"):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
+# if prompt := st.chat_input("What is up?"):
+#     st.session_state.messages.append({"role": "user", "content": prompt})
+#     with st.chat_message("user"):
+#         st.markdown(prompt)
 
-    with st.chat_message("assistant"):
-        message_placeholder = st.empty()
-        full_response = ""
-        for response in client.chat.completions.create(
-            model=st.session_state["openai_model"],
-            messages=[
-                {"role": m["role"], "content": m["content"]}
-                for m in st.session_state.messages
-            ],
-            stream=True,
-        ):
-            full_response += (response.choices[0].delta.content or "")
-            message_placeholder.markdown(full_response + "▌")
-        message_placeholder.markdown(full_response)
-    st.session_state.messages.append({"role": "assistant", "content": full_response})
+#     with st.chat_message("assistant"):
+#         message_placeholder = st.empty()
+#         full_response = ""
+#         for response in client.chat.completions.create(
+#             model=st.session_state["openai_model"],
+#             messages=[
+#                 {"role": m["role"], "content": m["content"]}
+#                 for m in st.session_state.messages
+#             ],
+#             stream=True,
+#         ):
+#             full_response += (response.choices[0].delta.content or "")
+#             message_placeholder.markdown(full_response + "▌")
+#         message_placeholder.markdown(full_response)
+#     st.session_state.messages.append({"role": "assistant", "content": full_response})
