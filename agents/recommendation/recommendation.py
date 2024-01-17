@@ -39,7 +39,7 @@ toolkit = SQLDatabaseToolkit(db=db, llm=llm)
 def initialize_memory():
     return ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-def class_recommendation(standing, major,ge,ge_area):
+def class_recommendation(major,major_class,ge,ge_area):
 
     agent_executor = create_sql_agent(
     llm=llm,
@@ -48,14 +48,16 @@ def class_recommendation(standing, major,ge,ge_area):
     agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
     )
    
-    # if ge:
-    #     input_prompt="You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The student is a {standing} {major} student, The students wants to take a ge class with area {ge_area}, can you recommend some for the student? You should look at find the generalEducation column that contains {ge_area}, then look at the course title column and give me top five course that you think are more interesting with a reasoning. "
-    # else:
-    #     input_prompt="You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The student is a {standing} {major} student, The students wants to take a major class, can you recommend some for the student? You should look at find the subjectArea column that indicates {major}, then look at the course title column and give me top five course that you think are more interesting with a reasoning."
-    prompt_class=PromptTemplate(
-        template="You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The student is a {standing} {major} student, The students wants to take a math class, can you recommend some for the student? You should first find the subjectArea column that contains MATH, then look at the course title column and give me top five course that you think are more interesting. Please give the class in the format of \n 1. \n class title: ... \n instructor:... \n reason: why you think the class is good \n 2.",
-        input_variables=['standing','major','school']
-    )
+    if ge == 'Yes':
+        prompt_option="You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The students wants to take a ge class with area '/ENGR,{ge_area}', can you recommend some for the student? You should first find the generalEducation column that contains {ge_area}, then look at the course title column and give me top five course that you think are more interesting. Please give the class in the format of 1. courseId:... \n class title: ... \n instructor:... \n reason: why you think the class is good \n 2."
+    if major_class=='Yes':
+        prompt_option="You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The student is a {major} student, The students wants to take a {major} class, can you recommend some for the student? You should first find the subjectArea column that contains 'CHEM' then look at the course title column and give me top five course that you think are more interesting. Please give the class in the format of 1. courseId:... \n class title: ... \n instructor:... \n reason: why you think the class is good \n 2."
+    
+    
+    # prompt_class=PromptTemplate(
+    #     template= "You are a knowledgeable UCSB course advisor. You specialize in helping students find their passion and interests. You need to assist them in planning their course schedules based on these preferences, ensuring a personalized and fulfilling academic journey. The student is a {standing} {major} student, The students wants to take a math class, can you recommend some for the student? You should first find the subjectArea column that contains MATH, then look at the course title column and give me top five course that you think are more interesting. Please give the class in the format of \n 1. \n class title: ... \n instructor:... \n reason: why you think the class is good \n 2.",
+    #     input_variables=['standing','major']
+    # )
 
     
     # prompt_class=ChatPromptTemplate.from_messages(
@@ -68,14 +70,14 @@ def class_recommendation(standing, major,ge,ge_area):
 
 
     # response=class_chain({"standing":standing, "major":major, "school":school})
-    response=agent_executor.invoke(prompt_class, {"standing":standing, "major":major})
+    print(prompt_option)
+    response=agent_executor.invoke({'input':prompt_option})
     return response['output']
 
 if __name__ == "__main__":
-    standing = 'Junior'
-    major = 'MATH'
-    ge=False
+    # standing = 'Junior'
+    major = 'CHEM'
+    ge='No'
     ge_area='F'
-
-    # school = 'University of California, Santa Barbara'
-    print(class_recommendation(standing, major,ge,ge_area))
+    major_class='Yes'
+    print(class_recommendation(major,major_class,ge,ge_area))
