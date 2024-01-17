@@ -23,8 +23,8 @@ db.connect()
 db.create_tables([Student])
 
 
-student_name = st.text_input('Please enter your name:')
-student_age = st.slider('Please enter your age:', 0, 60, 20)
+student_name = st.text_input('Please enter your first and last name:')
+# student_age = st.slider('Please enter your age:', 0, 60, 20)    do we need age?
 student_major = st.text_input('Please enter your major:')
 student_class_standing = st.selectbox('Please enter your class standing:', ['Freshman', 'Sophomore', 'Junior', 'Senior'])
 ge=st.radio('Do you want to take a GE course?', ['Yes', 'No'])
@@ -36,14 +36,18 @@ if major_class=='Yes':
 prompt = st.chat_input("Say something")
 submit_button = st.button("Submit")
 if submit_button:
-    student = Student.create(name=student_name, age=student_age, class_standing=student_class_standing, major=student_major)
+    student = Student.create(name=student_name, class_standing=student_class_standing, major=student_major)
     st.write("Your information recorded successfully. Student ID: " + str(student.id))
     response=rec.class_recommendation(student_class_standing, student_major,ge,ge_area)
     st.text_area('Here are the recommended courses for you:',response)
 
 
 
+# To run this demo, run the following command in a terminal:
+# streamlit run streamlitUI.py
+    
 
+    
 #Chatbot
 #Still woking on it!!!
 
