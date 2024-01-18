@@ -164,6 +164,46 @@ def filter_by_time(day, begin, end, courses):
 
     return filtered_courses
 
+
+
+def filter_by_professors(instructors, courses):
+    """
+    filter courses by prefered professors
+
+    ARGS:
+        instructors: (list) list of prefered professors
+        courses: (list) list of Courses instances
+
+    RETURN:
+        A list of Course instances that match the conditions
+    """
+    filtered_courses = []
+    for c in courses:
+        if c.instructor is not None:
+            if c.instructor in instructors:
+                filtered_courses.append(c)
+    
+    return filtered_courses
+
+def filter_by_major(major_area, courses):
+    """
+    filter courses by major
+    ARGS:
+        major_area: (str) major area dept code
+        courses: (list) list of Courses instances
+
+    RETURN:
+        A list of Course instances that match the conditions
+    """
+    filtered_courses = []
+    for c in courses:
+        if c.deptCode is not None:
+            if c.deptCode == major_area:
+                filtered_courses.append(c)
+    
+    return filtered_courses
+
+
 if __name__ == "__main__":
     initialize_db()
     parse_json('api_responses.json')
