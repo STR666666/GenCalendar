@@ -1,20 +1,22 @@
 import pyrebase
+
 # pip3 install pyrebase4, normal pyrebase didn't seem to work
 # pip install uplink if (collections.MutableMapping)
 
 firebaseConfig = {
-    'apiKey' : "AIzaSyAVqn91VbigCIrdcDXNLVNQU3b1h4ZLwOM",
-    'authDomain' : "gencalendar-4818d.firebaseapp.com",
+    'apiKey': "AIzaSyAVqn91VbigCIrdcDXNLVNQU3b1h4ZLwOM",
+    'authDomain': "gencalendar-4818d.firebaseapp.com",
     'databaseURL': "https://gencalendar-4818d-default-rtdb.firebaseio.com",
     'projectId': "gencalendar-4818d",
-    'storageBucket' : "gencalendar-4818d.appspot.com",
-    'messagingSenderId' : "107573841336",
-    'appId' : "1:107573841336:web:1aa0c09828438cd507534d",
-    'measurementId' : "G-WQJ5ETVT2Y"
+    'storageBucket': "gencalendar-4818d.appspot.com",
+    'messagingSenderId': "107573841336",
+    'appId': "1:107573841336:web:1aa0c09828438cd507534d",
+    'measurementId': "G-WQJ5ETVT2Y"
 }
 
-firebase=pyrebase.initialize_app(firebaseConfig)
-auth=firebase.auth()
+firebase = pyrebase.initialize_app(firebaseConfig)
+auth = firebase.auth()
+
 
 def login():
     print("Log in...")
@@ -27,6 +29,7 @@ def login():
         print("Invalid email or password")
     return
 
+
 def signup():
     print("Sign up...")
     email = input("Enter email: ")
@@ -37,6 +40,7 @@ def signup():
         print("Email already exists")
     return
 
+
 def logout():
     auth.current_user = None
     print("You have been logged out.")
@@ -45,18 +49,17 @@ def logout():
 while True:
     ans = input("Are you a new user? [y/n]: ")
 
-    if ans == 'n':
+    if ans == 'n':  # no then login
         login()
         while True:
             ans = input("Do you want to sign out? [y/n]: ")
-            if ans == 'y':
+            if ans == 'y':  # yes then log out
                 logout()
                 break  # breaks out of the inner loop
-            elif ans == 'n':
-                # maybe add more options here such as delete account.
-                pass
+            elif ans == 'n':  # no then...
+                pass  # maybe add more options here such as delete account.
 
-    elif ans == 'y':
+    elif ans == 'y':  # yes then sign up a new account
         signup()
 
     # Add an option to exit the program
@@ -76,5 +79,3 @@ if ans == 'n':
 elif ans == 'y':
     signup()
 '''
-
-
