@@ -5,7 +5,7 @@ cur_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, cur_path+"/..")
 
 from datetime import datetime
-from peewee import *
+from pegit checkout [branch-name]ewee import *
 from models import Course, initialize_db
 
 def parse_json(input):
