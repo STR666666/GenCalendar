@@ -17,6 +17,8 @@ firebaseConfig = {
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
 
+'''Login/sign in'''
+
 
 def login():
     print("Log in...")
@@ -30,6 +32,9 @@ def login():
     return
 
 
+'''Sign up'''
+
+
 def signup():
     print("Sign up...")
     email = input("Enter email: ")
@@ -39,6 +44,9 @@ def signup():
     except:
         print("Email already exists")
     return
+
+
+'''Log out'''
 
 
 def logout():
