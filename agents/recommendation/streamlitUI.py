@@ -13,7 +13,6 @@ db = SqliteDatabase('students.db')
 # Database Initalization
 class Student(Model):
     name = CharField()
-    age = IntegerField()
     class_standing = CharField()
     major = CharField()
 
@@ -24,21 +23,24 @@ db.create_tables([Student])
 
 
 student_name = st.text_input('Please enter your first and last name:')
-# student_age = st.slider('Please enter your age:', 0, 60, 20)    do we need age?
+# age deleted
+ge_area=None
 student_major = st.text_input('Please enter your major:')
 student_class_standing = st.selectbox('Please enter your class standing:', ['Freshman', 'Sophomore', 'Junior', 'Senior'])
 ge=st.radio('Do you want to take a GE course?', ['Yes', 'No'])
 if ge=='Yes':
     ge_area=st.selectbox('Please select the GE area you want to take:', ['A-1','A-2' 'B', 'C', 'D', 'E', 'F', 'G'])
-major_class=st.radio('Do you want to take a major course?', ['Yes', 'No'])
-if major_class=='Yes':
-    upper_lower=st.radio('Do you want to take a upper or lower division course?', ['Upper', 'Lower'])
+
+else:
+    major_class=st.radio('Do you want to take a major course?', ['Yes', 'No'])
+    if major_class=='Yes':
+        upper_lower=st.radio('Do you want to take a upper or lower division course?', ['Upper', 'Lower'])
 prompt = st.chat_input("Say something")
 submit_button = st.button("Submit")
 if submit_button:
-    student = Student.create(name=student_name, class_standing=student_class_standing, major=student_major)
+    student = Student.create(name=student_name,class_standing=student_class_standing, major=student_major)
     st.write("Your information recorded successfully. Student ID: " + str(student.id))
-    response=rec.class_recommendation(student_class_standing, student_major,ge,ge_area)
+    response=rec.class_recommendation(student_class_standing, student_major,ge,ge_area,upper_lower)
     st.text_area('Here are the recommended courses for you:',response)
 
 
