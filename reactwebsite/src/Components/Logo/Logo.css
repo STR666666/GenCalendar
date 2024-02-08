@@ -1,0 +1,31 @@
+.logocont{
+    padding: 5px;
+}
+
+.textleft{/* GenCalendar */
+    
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Work Sans", sans-serif;
+    font-style: medium;
+    font-size: 40px;
+    font-weight: 500;
+    /* identical to box height */
+
+    color: #6188C8;
+
+}
+
+.textright{/* GenCalendar */
+    
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500;
+    /* identical to box height */
+    
+    color: #2D2E2E;
+    
+    }

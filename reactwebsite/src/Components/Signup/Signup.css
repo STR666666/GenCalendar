@@ -1,0 +1,16 @@
+.allelementssignup{
+    text-align: center;
+    vertical-align: center;
+}
+
+.signupcontainer{
+    display: inline-block;
+    text-align: left;
+} 
+
+#message{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px
+}

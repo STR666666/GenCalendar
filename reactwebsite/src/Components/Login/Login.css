@@ -1,0 +1,138 @@
+.page{
+    padding: 50px;
+}
+
+.allelements{
+    text-align: center;
+    vertical-align: center;
+    padding: 50px;
+}
+
+.bigtext{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container{
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    display: inline-block;
+    padding: 30px;
+    padding-right: 200px;
+    text-align: left;
+} 
+
+.right{
+    display: inline-block;
+    border-left: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    padding-left: 200px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.text{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 35px
+}
+
+.noaccques{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 50px
+}
+
+#Webshop input{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 25spx;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 330px;
+}
+
+#Webshop2 button{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 355px;
+    height: 70px;
+    background-color: #6088C8;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#Webshop2 button:hover{
+    background-color: #456291;
+}
+
+#Webshop button{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+    width: 355px;
+    height: 70px;
+    background-color: #6088C8;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#Webshop button:hover{
+    background-color: #456291;
+}
+
+#ExtWebshop button{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    vertical-align: middle;
+    width: 355px;
+    height: 85px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin-bottom: 25px;
+}
+
+#ExtWebshop button:hover{
+    background-color: #dddddd;
+}
+
+#Webshop img {
+    padding-right: 25px;
+}
+
+#Webshop text {
+    text-align: center;
+    vertical-align: 13px;
+}
