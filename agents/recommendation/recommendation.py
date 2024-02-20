@@ -77,6 +77,7 @@ def class_recommendation(class_standing=None,major=None,major_class='No',ge='No'
 
     # response=class_chain({"standing":standing, "major":major, "school":school})
     print(prompt_option)
+    print(class_standing,major,major_class,ge,ge_area,upper)
     response=agent_executor.invoke({'input':prompt_option})
     return response['output']
 
